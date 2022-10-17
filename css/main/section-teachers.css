@@ -1,0 +1,58 @@
+.section__teachers {
+  padding: 74px 0;
+  background-color: #212133;
+}
+
+.section-teachers__title {
+  margin: 0;
+  margin-bottom: 25px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  color: var(--color-white);
+}
+
+.section-teachers__teacher {
+  margin-bottom: 27px;
+}
+
+.section-teachers__item  {
+  flex-direction: column;
+}
+
+.section-teachers__heading {
+  margin: 0;
+  margin-bottom: 8px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-white);
+}
+
+.section-teachers__wrap {
+  flex: 1;
+  flex-direction: column;
+}
+
+.section-teachers__descr {
+  margin: 0;
+  max-width: 254px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-waterloo);
+}

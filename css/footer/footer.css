@@ -1,0 +1,32 @@
+.footer__top {
+  padding-top: 29px;
+  padding-bottom: 24px;
+  background-color: var(--color-ebony-clay);
+}
+
+.footer__list {
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer__bottom {
+  padding-top: 3px;
+}
+
+.footer__text {
+  margin: 0;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--color-ebony-clay);
+}

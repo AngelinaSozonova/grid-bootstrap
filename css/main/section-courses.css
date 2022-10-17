@@ -1,0 +1,87 @@
+.section__courses {
+  padding-top: 72px;
+  padding-bottom: 52px;
+}
+
+.section-courses__title {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.section-corses__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-courses__pic {
+  vertical-align: bottom;
+}
+
+.section-courses__time {
+  position: absolute;
+  padding-left: 29px;
+  top: -2px;
+  right: 3px;
+  font-size: 16px;
+  line-height: 19px;
+  background-image: url('../../img/mdi_access_time.svg');
+  background-position: left center;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  color: var(--color-white);
+}
+
+.section-courses__column {
+  margin-bottom: 30px;
+}
+
+.section-courses__item {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 30px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #EDF0F9;
+}
+
+.section-courses__heading {
+  margin: 0;
+  margin-bottom: 7px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-steel-gray);
+}
+
+.section-courses__text {
+  margin: 0;
+  margin-bottom: 50px;
+  max-width: 481px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-dove-gray);
+}
+
+.section-courses__btn {
+  position: relative;
+  max-width: 202px;
+  padding: 20px 59px;
+  margin-top: auto;
+  bottom: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}

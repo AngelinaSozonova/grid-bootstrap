@@ -1,0 +1,41 @@
+.header {
+  padding-top: 28px;
+  padding-bottom: 29px;
+  background-color: #3F2AFF;
+}
+
+.header__burger {
+  display: none;
+}
+
+.header__logo {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+}
+
+.header__item {
+  justify-content: space-between;
+  max-width: 132px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--color-white);
+}
+
+.header__item:not(:last-child) {
+  margin-right: 57px;
+}
+
+.header__list {
+  justify-content: flex-end;
+}
+
+
+
+
